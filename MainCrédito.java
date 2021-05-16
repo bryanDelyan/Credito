@@ -19,11 +19,7 @@ class MainCrédito
         cr.algoritmo();
 
         //mostrar / imprimir los datos de salida
-        c.imprimir("Valor Cuota Mensual  : " + cr.valorcuotaMensual);
-        c.imprimir("Valor Mensual Capital: " + cr.valormensualCapital);        
-        c.imprimir("Valor Mensual Interes: " + cr.valormensualInteres);
-        c.imprimir("Ganancia Total       : " + cr. gananciaTotal+ "%");      
-
+        c.imprimir("El total a pagar por intereses es: " + cr.valorTotalInteres);
     } 
     
 }//fin class MainTienda
